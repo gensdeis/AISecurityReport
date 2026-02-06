@@ -3,27 +3,29 @@
 검토·승인된 AI 도구를 기능 영역별로 분류한 문서
 
 ---
-
+🟢 : 사용 가능
+🟡 : 부분적 사용 가능
+🔴 : 미사용 권고
 ## 🎬 1. 영상 · 이미지 · 미디어 생성/편집 AI
 
 | 도구 | 사용 여부 | 검토일 | 보안 등급 | 상세 |
 |------|-----------|--------|-----------|------|
-RunwayML | 사용가능 | 25.06.26 | 🟢 Enterprise 조건부 | [상세보기](#runwayml-보안검토) |
-CapCut | AI 영상 편집, 자동 자막 | 미사용 권고 | | [상세보기](#Capcut-보안검토) |
-Veo in Gemini | 텍스트/이미지 → 8초 고화질 영상 | 사용가능 |  | [상세보기](#Veo-in-Gemini-보안검토) |
-Cutback | 자동 컷편집, 무음 제거, 자막 | 사용가능 |  | [상세보기](#Cutback-보안검토) |
-Pixverse AI | 시네마틱 AI 영상 생성 | 미사용 권고 |  | [상세보기](#Pixverse-AI-보안검토) |
-Wan Video | 텍스트/이미지 기반 영상 생성 | 사용가능 |  | [상세보기](#Wan-Video-보안검토) |
-hailuoai | 텍스트/이미지 → 영상 | 미사용 권고 |  | [상세보기](#hailuoai-보안검토) |
-midjourney | 이미지 및 비디오 생성 | 미사용 권고 |  | [상세보기](#midjourney-보안검토) |
-Freepik | 스톡 + AI 이미지/영상 생성 | 사용가능 | 유료 권장 | [상세보기](#Freepik-보안검토) |
-DomoAI | 이미지/영상 생성·편집 | 사용가능 |  | [상세보기](#DomoAI-보안검토) |
-Higgsfield.ai | 마케팅 영상 생성 | 미사용 권고 | 입력데이터 학습 사용 | [상세보기](#Higgsfield.ai-보안검토) |
-Animon AI | 이미지 기반 영상 생성 | 미사용 권고 |  | [상세보기](#Animon-AI-보안검토) |
-Topaz Labs Bloom | AI 업스케일링/보정 | 미사용 권고 | 데이터 학습 사용 | [상세보기](#Topaz-Labs-Bloom-보안검토) |
-Anirole | 이미지 → 애니 스타일 영상 | 미사용 권고 | 학습여부 불명 | [상세보기](#Anirole-보안검토) |
-bylo.ai | 배경 제거, 이미지 교체 등 | 미사용 권고 | 학습여부 불명 | [상세보기](#bylo.ai-보안검토) |
-Vectorizer AI | 래스터 → 벡터 변환 | 미사용 권고 |  | [상세보기](#Vectorizer-AI-보안검토) |
+RunwayML | 사용가능 | 25.06.26 | 🟡 Enterprise 조건부 | [상세보기](#runwayml-보안검토) |
+CapCut | AI 영상 편집, 자동 자막 |  미사용 권고 | 🔴 | [상세보기](#Capcut-보안검토) |
+Veo in Gemini | 텍스트/이미지 → 8초 고화질 영상 | 사용가능 | 🟢 | [상세보기](#Veo-in-Gemini-보안검토) |
+Cutback | 자동 컷편집, 무음 제거, 자막 | 사용가능 | 🟢 | [상세보기](#Cutback-보안검토) |
+Pixverse AI | 시네마틱 AI 영상 생성 | 미사용 권고 | 🔴 | [상세보기](#Pixverse-AI-보안검토) |
+Wan Video | 텍스트/이미지 기반 영상 생성 | 사용가능 | 🟢 | [상세보기](#Wan-Video-보안검토) |
+hailuoai | 텍스트/이미지 → 영상 | 미사용 권고 | 🔴 | [상세보기](#hailuoai-보안검토) |
+midjourney | 이미지 및 비디오 생성 | 미사용 권고 | 🔴 | [상세보기](#midjourney-보안검토) |
+Freepik | 스톡 + AI 이미지/영상 생성 | 사용가능 | 🟡 유료 권장 | [상세보기](#Freepik-보안검토) |
+DomoAI | 이미지/영상 생성·편집 | 사용가능 | 🟢 | [상세보기](#DomoAI-보안검토) |
+Higgsfield.ai | 마케팅 영상 생성 | 미사용 권고 | 🔴 입력데이터 학습 사용 | [상세보기](#Higgsfield.ai-보안검토) |
+Animon AI | 이미지 기반 영상 생성 | 미사용 권고 | 🔴 | [상세보기](#Animon-AI-보안검토) |
+Topaz Labs Bloom | AI 업스케일링/보정 | 미사용 권고 | 🔴 데이터 학습 사용 | [상세보기](#Topaz-Labs-Bloom-보안검토) |
+Anirole | 이미지 → 애니 스타일 영상 | 미사용 권고 | 🔴 학습여부 불명 | [상세보기](#Anirole-보안검토) |
+bylo.ai | 배경 제거, 이미지 교체 등 | 미사용 권고 | 🔴 학습여부 불명 | [상세보기](#bylo.ai-보안검토) |
+Vectorizer AI | 래스터 → 벡터 변환 | 미사용 권고 | 🔴 | [상세보기](#Vectorizer-AI-보안검토) |
 
 ---
 
@@ -31,8 +33,8 @@ Vectorizer AI | 래스터 → 벡터 변환 | 미사용 권고 |  | [상세보�
 
 | 도구 | 사용 여부 | 검토일 | 보안 등급 | 상세 |
 |------|-----------|--------|-----------|------|
-KLingAI | 다국어 음성 인식/번역 | 미사용 권고 |  | [상세보기](#KLingAI-보안검토) |
-SUNO | AI 음악 생성 | 사용가능 |  | [상세보기](#SUNO-보안검토) |
+KLingAI | 다국어 음성 인식/번역 | 미사용 권고 | 🔴 | [상세보기](#KLingAI-보안검토) |
+SUNO | AI 음악 생성 | 사용가능 | 🟢 | [상세보기](#SUNO-보안검토) |
 
 ---
 
@@ -40,11 +42,11 @@ SUNO | AI 음악 생성 | 사용가능 |  | [상세보기](#SUNO-보안검토) |
 
 | 도구 | 사용 여부 | 검토일 | 보안 등급 | 상세 |
 |------|-----------|--------|-----------|------|
-Claude AI | 문서작성·분석·코딩 지원 LLM | 사용가능 | 데이터 학습 비활성 | [상세보기](#Claude-AI-보안검토) |
-Grok | xAI LLM 서비스 | 사용가능 | Enterprise 권장 | [상세보기](#Grok-보안검토) |
-Gemini-CLI | Google LLM | 사용가능 |  | [상세보기](#Gemini-CLI-보안검토) |
-Genspark | 리서치·문서·코드 통합 워크스페이스 | 사용가능 |  | [상세보기](#Genspark-보안검토) |
-Canvas in Gemini | 텍스트/코드 통합 작업공간 | 사용가능 |  | [상세보기](#Canvas-in-Gemini-보안검토) |
+Claude AI | 문서작성·분석·코딩 지원 LLM | 사용가능 | 🟡 데이터 학습 비활성 | [상세보기](#Claude-AI-보안검토) |
+Grok | xAI LLM 서비스 | 사용가능 | 🟡 Enterprise 권장 | [상세보기](#Grok-보안검토) |
+Gemini-CLI | Google LLM | 사용가능 | 🟢 | [상세보기](#Gemini-CLI-보안검토) |
+Genspark | 리서치·문서·코드 통합 워크스페이스 | 사용가능 | 🟢 | [상세보기](#Genspark-보안검토) |
+Canvas in Gemini | 텍스트/코드 통합 작업공간 | 사용가능 | 🟢 | [상세보기](#Canvas-in-Gemini-보안검토) |
 
 ---
 
@@ -52,16 +54,16 @@ Canvas in Gemini | 텍스트/코드 통합 작업공간 | 사용가능 |  | [상
 
 | 도구 | 사용 여부 | 검토일 | 보안 등급 | 상세 |
 |------|-----------|--------|-----------|------|
-JetBrains Junie | IDE 내 AI 코딩 보조 | 사용가능 |  | [상세보기](#JetBrains-Junie-보안검토) |
-AWS Kiro | 스펙 기반 AI IDE | 사용가능 | 학습 기능 비활성 | [상세보기](#AWS-Kiro-보안검토) |
-AWS Q Developer | AWS 개발 어시스턴트 | 사용가능 |  | [상세보기](#AWS-Q-Developer-보안검토) |
-Google Jules | 코드 수정 후 PR 자동 생성 | 사용가능 | 학습 기능 비활성 | [상세보기](#Google Jules-보안검토) |
-lovable.dev | 웹앱 자동 생성 플랫폼 | 사용가능 |  | [상세보기](#lovable.dev-보안검토) |
-v0 by Vercel | 프론트엔드 UI 자동 생성 | 사용가능 |  | [상세보기](#-보안검토) |
-Claude Code | 터미널 기반 AI 코딩 에이전트 | 사용가능 | 유료 권장 | [상세보기](#v0-by-Vercel-보안검토) |
-Cursor AI | AI 내장 코드 에디터 | 사용가능 | Privacy Mode 권장 | [상세보기](#Cursor-AI-보안검토) |
-OpenCode.ai | 오픈소스 AI 코딩 플랫폼 | 미사용 권고 | 학습여부 불명 | [상세보기](#OpenCode.ai-보안검토) |
-Google Antigravity | AI 기반 통합 IDE | 사용가능 | Enterprise 권장 | [상세보기](#Google-Antigravity-보안검토) |
+JetBrains Junie | IDE 내 AI 코딩 보조 | 사용가능 | 🟢 | [상세보기](#JetBrains-Junie-보안검토) |
+AWS Kiro | 스펙 기반 AI IDE | 사용가능 | 🟡 학습 기능 비활성 | [상세보기](#AWS-Kiro-보안검토) |
+AWS Q Developer | AWS 개발 어시스턴트 | 사용가능 | 🟢 | [상세보기](#AWS-Q-Developer-보안검토) |
+Google Jules | 코드 수정 후 PR 자동 생성 | 사용가능 | 🟡 학습 기능 비활성 | [상세보기](#Google Jules-보안검토) |
+lovable.dev | 웹앱 자동 생성 플랫폼 | 사용가능 | 🟢 | [상세보기](#lovable.dev-보안검토) |
+v0 by Vercel | 프론트엔드 UI 자동 생성 | 사용가능 | 🟢 | [상세보기](#-보안검토) |
+Claude Code | 터미널 기반 AI 코딩 에이전트 | 사용가능 | 🟡 유료 권장 | [상세보기](#v0-by-Vercel-보안검토) |
+Cursor AI | AI 내장 코드 에디터 | 사용가능 | 🟡 Privacy Mode 권장 | [상세보기](#Cursor-AI-보안검토) |
+OpenCode.ai | 오픈소스 AI 코딩 플랫폼 | 미사용 권고 | 🔴 학습여부 불명 | [상세보기](#OpenCode.ai-보안검토) |
+Google Antigravity | AI 기반 통합 IDE | 사용가능 | 🟡 Enterprise 권장 | [상세보기](#Google-Antigravity-보안검토) |
 
 ---
 
@@ -69,8 +71,8 @@ Google Antigravity | AI 기반 통합 IDE | 사용가능 | Enterprise 권장 | [
 
 | 도구 | 사용 여부 | 검토일 | 보안 등급 | 상세 |
 |------|-----------|--------|-----------|------|
-Vertex AI | ML 모델 학습·배포·모니터링 | 사용가능 |  | [상세보기](#Vertex-AI-보안검토) |
-Flux-Kontext | RAG 기반 문맥 추출 | 미사용 권고 |  | [상세보기](#Flux-Kontext-보안검토) |
+Vertex AI | ML 모델 학습·배포·모니터링 | 사용가능 | 🟢 | [상세보기](#Vertex-AI-보안검토) |
+Flux-Kontext | RAG 기반 문맥 추출 | 미사용 권고 | 🔴 | [상세보기](#Flux-Kontext-보안검토) |
 
 ---
 
@@ -78,12 +80,12 @@ Flux-Kontext | RAG 기반 문맥 추출 | 미사용 권고 |  | [상세보기](#
 
 | 도구 | 사용 여부 | 검토일 | 보안 등급 | 상세 |
 |------|-----------|--------|-----------|------|
-Hitem3D | 텍스트/이미지 기반 3D 생성 | 미사용 권고 |  | [상세보기](#Hitem3D-보안검토) |
-Meshy | 3D 모델·텍스처 생성 | 사용가능 |  | [상세보기](#Meshy-보안검토) |
-Tripo 3D | 이미지/텍스트 → 3D 모델 | 사용가능 | 유료 권장 | [상세보기](#Tripo-3D-보안검토) |
-YVO3D | 웹 기반 3D 생성 | 사용가능 | 유료 권장 | [상세보기](#YVO3D-보안검토) |
-Tencent HY 3D Global | 고품질 3D 메쉬 생성 | 미사용 권고 | 학습여부 불명 | [상세보기](#Tencent-HY-3D-Global-보안검토) ||
-quickmagic | 2D 영상 → 3D 모션캡처 | 미사용 권고 |  | [상세보기](#quickmagic-보안검토) |
+Hitem3D | 텍스트/이미지 기반 3D 생성 | 미사용 권고 | 🔴 | [상세보기](#Hitem3D-보안검토) |
+Meshy | 3D 모델·텍스처 생성 | 사용가능 | 🟢 | [상세보기](#Meshy-보안검토) |
+Tripo 3D | 이미지/텍스트 → 3D 모델 | 사용가능 | 🟡 유료 권장 | [상세보기](#Tripo-3D-보안검토) |
+YVO3D | 웹 기반 3D 생성 | 사용가능 | 🟡 유료 권장 | [상세보기](#YVO3D-보안검토) |
+Tencent HY 3D Global | 고품질 3D 메쉬 생성 | 미사용 권고 | 🔴 학습여부 불명 | [상세보기](#Tencent-HY-3D-Global-보안검토) ||
+quickmagic | 2D 영상 → 3D 모션캡처 | 미사용 권고 | 🔴 | [상세보기](#quickmagic-보안검토) |
 
 ---
 
@@ -91,7 +93,7 @@ quickmagic | 2D 영상 → 3D 모션캡처 | 미사용 권고 |  | [상세보기
 
 | 도구 | 사용 여부 | 검토일 | 보안 등급 | 상세 |
 |------|-----------|--------|-----------|------|
-Adobe Firefly | AI 디자인 생성 | 사용가능 | Enterprise 권장 | [상세보기](#Adobe-Firefly-보안검토) |
+Adobe Firefly | AI 디자인 생성 | 사용가능 | 🟡 Enterprise 권장 | [상세보기](#Adobe-Firefly-보안검토) |
 
 ---
 
@@ -99,8 +101,8 @@ Adobe Firefly | AI 디자인 생성 | 사용가능 | Enterprise 권장 | [상세
 
 | 도구 | 사용 여부 | 검토일 | 보안 등급 | 상세 |
 |------|-----------|--------|-----------|------|
-firefiles.ai | 회의 녹음·요약·태그 | 사용가능 |  | [상세보기](#firefiles.ai-보안검토) |
-fathom.ai | 회의 요약·전사 | 사용가능 |  | [상세보기](#fathom.ai-보안검토) |
+firefiles.ai | 회의 녹음·요약·태그 | 사용가능 | 🟢 | [상세보기](#firefiles.ai-보안검토) |
+fathom.ai | 회의 요약·전사 | 사용가능 | 🟢 | [상세보기](#fathom.ai-보안검토) |
 
 ---
 
@@ -108,7 +110,7 @@ fathom.ai | 회의 요약·전사 | 사용가능 |  | [상세보기](#fathom.ai-
 
 | 도구 | 사용 여부 | 검토일 | 보안 등급 | 상세 |
 |------|-----------|--------|-----------|------|
-Tax Agent | 세법 데이터 기반 전문 답변 | 사용가능 |  | [상세보기](#Tax-Agent-보안검토) |
+Tax Agent | 세법 데이터 기반 전문 답변 | 사용가능 | 🟢 | [상세보기](#Tax-Agent-보안검토) |
 
 ---
 
@@ -116,8 +118,8 @@ Tax Agent | 세법 데이터 기반 전문 답변 | 사용가능 |  | [상세보
 
 | 도구 | 사용 여부 | 검토일 | 보안 등급 | 상세 |
 |------|-----------|--------|-----------|------|
-comfy | 로컬 생성형 비디오 AI | 사용가능 | 로컬 설치 | [상세보기](#comfy-보안검토) |
-ComfyUI Cloud | 이미지/영상 워크플로우 설계 | 사용가능 |  | [상세보기](#ComfyUI-Cloud-보안검토) |
+comfy | 로컬 생성형 비디오 AI | 사용가능 | 🟡 로컬 설치 | [상세보기](#comfy-보안검토) |
+ComfyUI Cloud | 이미지/영상 워크플로우 설계 | 사용가능 | 🟢 | [상세보기](#ComfyUI-Cloud-보안검토) |
 
 ---
 
